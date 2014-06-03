@@ -38,3 +38,6 @@ gems:
 first_page:
   url: inledning
 
+gems:
+- jekyll-mentions
+- jekyll-sitemap
