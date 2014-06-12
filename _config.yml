@@ -6,22 +6,22 @@ pygments:         true
 permalink:        pretty
 
 # Setup
-title:            Lanyon
-tagline:          'A Jekyll theme'
-description:      'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+title:            Regin
+tagline:          'Gudarnas återkomst'
+description:      'Du är Regin, ett gudomligt väsen som har kraft att forma världarna. Regin - Lajvet för kreativa spelare som vill forma sin karaktärs och världens utveckling.'
 url:              http://lanyon.getpoole.com
 baseurl:          '/'
 paginate:         5
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Patrik'
+  url:            https://www.mumma.nu
 
 # Custom vars
-version:          1.0.0
+version:          0.0.1
 
 github:
-  repo:           https://github.com/poole/lanyon
+  repo:           https://github.com/paven/lanyon/regin
 
 gems:
 - jekyll-mentions
