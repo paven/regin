@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-#Regin
+##Regin
 Lajvet för kreativa spelare som vill forma sin karaktärs och världens utveckling.
 
 ##Design principer
