@@ -9,9 +9,12 @@ permalink:        pretty
 title:            Regin
 tagline:          'gudarnas återkomst'
 description:      'Du är Regin, ett gudomligt väsen som har kraft att forma världarna. Regin - Lajvet för kreativa spelare som vill forma sin karaktärs och världens utveckling.'
-url:              http://lanyon.getpoole.com
+
+url:              http://regin.mumma.nu
 baseurl:          '/'
+
 paginate:         5
+banner:           banner.jpg
 
 author:
   name:           'Patrik'
@@ -21,7 +24,7 @@ author:
 version:          0.0.1
 
 github:
-  repo:           https://github.com/paven/lanyon/regin
+  repo:           https://github.com/paven/regin
 
 gems:
 - jekyll-mentions

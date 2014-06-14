@@ -15,6 +15,12 @@
             <a href="/" title="Home">{{ site.title }}</a>
             <small>{{ site.tagline }}</small>
           </h3>
+          <img src="{% if page.banner  %} 
+						{{ page.banner }}
+					{% else %}
+						{{ page.banner }}
+					{% endif %}"
+			</img>
         </div>
       </div>
 
