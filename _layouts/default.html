@@ -4,12 +4,13 @@
   {% include head.html %}
 
   <body>
+  {% include analytics.html %}
     {% include sidebar.html %}
 
     <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
          content to avoid any CSS collisions with our real content. -->
     <div class="wrap">
-	<img class="banner" src="/public/{% if page.banner  %}{{ page.banner }}{% else %}{{ site.banner }}{% endif %}" />
+  <img class="banner" src="/public/{% if page.banner  %}{{ page.banner }}{% else %}{{ site.banner }}{% endif %}" />
       <div class="masthead">
         <div class="container">
           <h3 class="masthead-title">
