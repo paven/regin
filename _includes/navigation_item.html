@@ -1,0 +1,30 @@
+{% assign purl = page.url | remove: "/" %}
+{% if this_url == purl %}
+  {% assign a = "active" %}
+{% else %}
+  {% assign a = "" %}
+{% endif %}
+
+{% if this_url != "" %}
+  {% assign this_url = this_url | prepend:"/" | append:"/" %}
+  {% for p in site.pages %}
+    {% if p.url == this_url %}
+      <a class="{{ a }} sidebar-nav-item" href="{{ site.url }}{{ p.url }}#content">{{ p.title }}</a>
+      {% if p.next_page %}
+        {% assign this_url= p.next_page %}
+      {% else %}
+        {% assign this_url= "" %}
+      {% endif %}
+      {% include navigation_item.html %}
+      {% break %}
+    {% endif %}
+    {% if forloop.last == true %} {% comment %} lägger till sista länken om en en flaktig referens gjorts tidigare {% endcomment %}
+      <!--ERROR: {{ this_url }} is not a page-->
+      {% assign this_url= "" %}
+      {% include navigation_item.html %}
+    {% endif %}
+  {% endfor %}
+  
+{% else %}
+  <a class="{{ a }} sidebar-nav-item" href="{{ site.url }}/#content"> Blog</a>
+{% endif %}

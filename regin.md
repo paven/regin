@@ -1,6 +1,7 @@
 ---
 layout: page
 title: De rådande
+next_page: panteoner
 ---
 
 Regin(de rådande) - “ett kollektivt namn på alla gudomliga väsen och varelser”.
@@ -28,7 +29,7 @@ möjlighet att bryta dem, men de skapa sår i deras esens som är
 synliga för vissa Regin.
 
 ###Odödlighet
-En regin kan först dö när alla spår av deras existens utplånats. 
+En regin kan likt andar först dö när alla spår av deras existens utplånats. 
 Inklusive alla minnen av dem som Världsliga, Andar, Regin har och 
 alla artefakter och fenomen. 
 

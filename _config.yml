@@ -34,3 +34,6 @@ gems:
 - jekyll-mentions
 - jekyll-sitemap
 
+first_page:
+  url: kosmologi
+
