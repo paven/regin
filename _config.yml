@@ -35,5 +35,5 @@ gems:
 - jekyll-sitemap
 
 first_page:
-  url: kosmologi
+  url: inledning
 
