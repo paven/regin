@@ -24,7 +24,9 @@ I de flesta lajv jag spelat i hamnar man i att relationen till spelledaren är g
 ###Tydliga klara regler.
 Regin bygger på regler som förstärker möjligheterna till intreraktion och kreativigtet samtidigt som de ska vara enkla och urvägen för spelandet. För att inte man som spelare ska undra över vad man faktiskt ser gäller att det du ser på håll är det du ser på håll, desutom ska komunikationen av regler vara enkel. I kombination med att det är en samtids värld. Eventuella regel ändringa ska även kunna motiveras i spelet för att kraktärer ska få en naturlig kontinutet . 
 
-
+##Hjälp till
+Regin är under utveckling.
+Har du ideer och förslag lämna dem gärna på projektets [förslagslista]({{site.github.issues_url}}), skicka ett [mejl](mailto:regin@mumma.nu) eller ännu bättre om du kan skicka ett "pull request" med ändringarna du föreslår för [siten]({{site.github.repository_url}}).
 
 ##Planerad sidor
 * [Inledning](inledning)
