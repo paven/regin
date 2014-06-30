@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Panteoner
-next_page: README
+next_page: eder
 ---
 För enkelhets skull använder vi i reglerna begreppet Panteon för alla grupperingar av Regin oavsett om de sig sig som gudar eller inte. 
 
