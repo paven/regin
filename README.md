@@ -7,7 +7,7 @@ title: Om
  Regin bygger på rollspelskampanjer jag haft tidigare med fae och andar. Närmaste ideén till världen kom i kampanjen Hypnos 1920, som utspelade sig bland människor förflytats till andevärlden av något så mystiskt som hypnos. Principerna för lajvet kommer från en heldel tänkande kring att skapa ett antal olika varulslajv, som av olika anledningar aldrig blivgt av, senast då jag bestämde mig för principen "Det du ser, ser du" vilket gör varulvslajv ganska begränsade. Dessa olika tankar leder fram till Regin och principerna nedan. Lajvet för kreativa spelare som vill forma sin karaktärs och världens utveckling.
 
 ##Om mig
-Jag är varit rollspelare, brädspelare och lajvar med stort intresse för att bygga intresanta världar och regelsystem. Jag är oftast spelledare när vi rollspelar, oftast i mina egna världar. När jag själv spelar är jag ute efter att testa gränser och utveckla min roll till något unikt och intressant. I övrigt kan man läsa om och av mig på min [hemsida
+Jag är varit rollspelare, brädspelare och lajvar med stort intresse för att bygga intresanta världar och regelsystem. Jag är oftast spelledare när vi rollspelar, oftast i mina egna världar. När jag själv spelar är jag ute efter att testa gränser och utveckla min roll till något unikt och intressant. I övrigt kan man läsa om och av mig på min [hemsida](http://www.mumma.nu), [twitter](https://twitter.com/paven) eller [google+](https://plus.google.com/+PatrikGustafsson)
 
 ##Design principer
 Här har kag försökt sammanfatta de mål jag haft med att skapa Regin.
