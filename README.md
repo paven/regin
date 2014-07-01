@@ -28,10 +28,3 @@ Regin bygger på regler som förstärker möjligheterna till intreraktion och kr
 Regin är under utveckling.
 Har du ideer och förslag lämna dem gärna på projektets [förslagslista]({{site.github.issues_url}}), skicka ett [mejl](mailto:regin@mumma.nu) eller ännu bättre om du kan skicka ett "pull request" med ändringarna du föreslår för [siten]({{site.github.repository_url}}).
 
-##Planerad sidor
-* [Inledning](inledning)
-* [Sammanfattning](sammanfattning)
-* [Ordlista](ordlista)
-* [Metafysik](metafysik)
-* [Krafter](krafter)
-* [Konflikt](konflikt)

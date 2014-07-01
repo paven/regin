@@ -231,7 +231,7 @@ a.sidebar-nav-item:focus {
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
-
+.sidebar-toggle:hover,
 .sidebar-toggle:active,
 #sidebar-checkbox:checked ~ .sidebar-toggle {
   color: #fff;
