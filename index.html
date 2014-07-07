@@ -25,18 +25,18 @@ För att läsa igenom världen och reglerna titta i menyn eller <a href="{{site.
 
 <div class="pagination">
   {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Föregående</a>
+    <a class="pagination-item older" href="{{ site.url }}page{{paginator.next_page}}/#content">föregående</a>
   {% else %}
-    <span class="pagination-item older">Föregående</span>
+    <span class="pagination-item older">&nbsp;</span>
   {% endif %}
   {% if paginator.previous_page %}
     {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Nästa</a>
+      <a class="pagination-item newer" href="{{ site.url }}/#content">nästa</a>
     {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Nästa</a>
+      <a class="pagination-item newer" href="{{ site.url }}page{{paginator.previous_page}}/#content">nästa</a>
     {% endif %}
   {% else %}
-    <span class="pagination-item newer">Nästa</span>
+    <a class="pagination-item newer" href="{{ site.url }}/{{site.first_page.url}}/#content">nästa</a>
   {% endif %}
 </div>
 
