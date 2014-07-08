@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Esoterisk Kosmologi
-next_page: regin
+next_page: /regin/
 ---
 ##Andevärlden
 Andevärlden är drömlik, stillsam, utan konflikt eller egen utveckling. Andarna utvecklas genom att inspireras av och inspirera vår värld. Långsamt kan andar divergera eller konvergera och skapa sig en identitet stark nog att bryta igenom barriären för att direkt ta tag i sitt öde och förändra vår värld för att införliva sina drömmar.

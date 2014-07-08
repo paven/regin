@@ -1,7 +1,7 @@
 ---
 layout: page
 title: De rådande
-next_page: panteoner
+next_page: /panteoner/
 ---
 
 Regin(de rådande) - “ett kollektivt namn på alla gudomliga väsen och varelser”.

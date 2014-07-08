@@ -4,9 +4,7 @@
 {% else %}
   {% assign a = "" %}
 {% endif %}
-
-{% if this_url != "" %}
-  {% assign this_url = this_url | prepend:"/" | append:"/" %}
+{% if this_url != "" %} 
   {% for p in site.pages %}
     {% if p.url == this_url %}
       <a class="{{ a }} sidebar-nav-item" href="{{ site.url }}{{ p.url }}#content">{{ p.title }}</a>
@@ -23,8 +21,5 @@
       {% assign this_url= "" %}
       {% include navigation_item.html %}
     {% endif %}
-  {% endfor %}
-  
-{% else %}
-  <a class="{{ a }} sidebar-nav-item" href="{{ site.url }}/#content"> Blog</a>
+  {% endfor %} 
 {% endif %}

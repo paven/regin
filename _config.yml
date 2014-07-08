@@ -18,6 +18,7 @@ url:              http://regin.mumma.nu
 baseurl:          '/'
 
 paginate:         5
+paginate_path:    "blog/page:num"
 banner:           banner.jpg
 
 author:

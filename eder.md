@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Eder
-next_page: README
+next_page: /README/
 ---
 När man svär en ed talar man Sanning, ens arketyp är fullt närvarande och man håller det man lovar.  Att svära en ed knyter an till traditioner och krafter som de rådande hade innan de fördrevs och i urminnes tider. Att ha svurit eder gör dig mer gudomlig då den binder din essens i världen och fungerar som en ankare. 
 

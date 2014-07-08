@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Om
+next_page: /blog/
 ---
 
 ##Regin - Bakgrund till lajv konceptet
