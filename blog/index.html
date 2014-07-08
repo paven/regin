@@ -3,9 +3,6 @@ layout: default
 title: Blog
 ---
 
-Här följer lite löpande updateringar om Regin. 
-För att läsa igenom världen och reglerna titta i menyn eller <a href="{{site.url}}/{{site.first_page.url}}/">börja med första sidan</a>.
-<br/>
 <div class="posts">
   {% for post in paginator.posts | sort: title %}
   <div class="post">
@@ -38,4 +35,3 @@ För att läsa igenom världen och reglerna titta i menyn eller <a href="{{site.
     <a class="pagination-item newer" href="{{ site.url }}/{{site.first_page.url}}/#content">nästa</a>
   {% endif %}
 </div>
-
