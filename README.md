@@ -9,11 +9,11 @@ Lajvet för kreativa spelare som vill forma sin karaktärs och världens utveckl
 
 ##Design principer
 
-* Låga tröskel in i spelet
+* Låg tröskel in i spelet
 * Man ska behöva prata med spelledare så lite som möjligt.
 * Spelar drivet.
 * High Fantasy känsla
-* Känsla av fårbådande mörker
+* Känsla av mörker
 * Det du ser på håll är det du ser på håll
 * Generella enkla Konfliktlösnings mekaniker
 * Gott spel ska belönas

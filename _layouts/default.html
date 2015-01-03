@@ -2,7 +2,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
 
   {% include head.html %}
-
   <body>
     {% include analytics.html %}
     {% include sidebar.html %}
@@ -18,15 +17,8 @@
             <a href="/" title="Home">{{ site.title }}</a>
             <small>{{ site.tagline }}</small>
           </h3>
-          <img src="{% if page.banner  %} 
-						{{ page.banner }}
-					{% else %}
-						{{ page.banner }}
-					{% endif %}"
-			</img>
         </div>
       </div>
-
       <div id="content" class="container content">
         {% include message.html %}
         {{ content }}

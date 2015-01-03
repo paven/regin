@@ -7,7 +7,7 @@
 {% if this_url != "" %} 
   {% for p in site.pages %}
     {% if p.url == this_url %}
-      <a class="{{ a }} sidebar-nav-item" href="{{ site.url }}{{ p.url }}#content">{{ p.title }}</a>
+      <a class="{{ a }} sidebar-nav-item" href="{{ site.baseurl }}{{ p.url }}#content">{{ p.title }}</a>
       {% if p.next_page %}
         {% assign this_url= p.next_page %}
       {% else %}

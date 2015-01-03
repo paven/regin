@@ -1,6 +1,5 @@
 # Dependencies
 markdown:         redcarpet
-pygments:         true
 highlighter:      pygments
 
 kramdown:
@@ -12,9 +11,9 @@ permalink:        pretty
 # Setup
 title:            Regin
 tagline:          'gudarnas återkomst'
-description:      'Du är Regin, ett gudomligt väsen som har kraft att forma världarna. Regin - Lajvet för kreativa spelare som vill forma sin karaktärs och världens utveckling.'
+description:      'Regin - Lajvet för kreativa spelare som vill forma sin karaktärs och världens utveckling.'
 url:              http://regin.mumma.nu
-baseurl:          '/'
+baseurl:          ''
 
 paginate:         5
 paginate_path:    "blog/page:num"
@@ -25,7 +24,7 @@ author:
   url:            https://www.mumma.nu
 
 # Custom vars
-version:          0.0.1
+version:          0.0.2
 
 github:
   repo:           https://github.com/paven/regin
@@ -35,4 +34,4 @@ gems:
 - jekyll-sitemap
 
 first_page:
-  url: inledning
+  url: /index/
