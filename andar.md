@@ -3,9 +3,11 @@ layout: page
 title: Andar
 ---
 
-Andevärlden är drömlik, stillsam, utan konflikt eller egen utveckling. Andarna utvecklas genom att inspireras av och inspirera vår värld. Långsamt kan andar divergera eller konvergera och skapa sig en identitet stark nog att bryta igenom barriären för att direkt ta tag i sitt öde och förändra vår värld för att införliva sina drömmar.
+Andevärlden är drömlik, stillsam, utan konflikt eller egen utveckling. Andarna utvecklas genom att inspireras av och inspirera vår värld. Långsamt kan andar divergera eller konvergera med andra andar. Andar kan vara självmedvetna, de kan även vara komplexa men ändå omedvetna om sin egen existens. Komplexa andar tenderar dock att bli självmedvetna.
 
-Den mäktigaste anden av gravitation lever på att världen har en gravitation som fungerar som en naturkraft och har inget behov av att ändra på det genom att komma till världen. När en ande kommer tillvärlden riskerarar den att utvecklas och omformas för dem själva ohanterligt. 
+
+
+Den mäktigaste anden av gravitation lever på att världen har en gravitation som fungerar som en naturkraft och har inget behov av att ändra på det genom att komma till världen. När en ande kommer till världen riskerarar den att utvecklas och omformas för dem själva ohanterligt.
 
 #### Ankare och Abyssen
 Samtliga andar glider sakta ut från världens närhet ut mot abyssen som en del av andevärldens entropi. Utan ankare trycks andarna ut mot andevärldens ytterkant, mot abyssen. Genom ankare kan andar hålla sig nära världen och trängas med andra andar som influerar och influeras av världen.

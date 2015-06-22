@@ -12,7 +12,7 @@ permalink:        pretty
 title:            Regin
 tagline:          'gudarnas återkomst'
 description:      'Regin - Lajvet för kreativa spelare som vill forma sin karaktärs och världens utveckling.'
-url:              http://regin.mumma.nu
+url:              http://regin.mumma.nu/
 baseurl:          ''
 
 paginate:         5
