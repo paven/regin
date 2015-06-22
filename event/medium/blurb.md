@@ -4,11 +4,13 @@ title: Ett medium
 next_page: /event/medium/blurb
 ---
 
-Jag är en vanlig (1)_____________ som (2)_______________ av en (3)_______________ för att (4)__________________________.
-För att ritualen ska lyckas krävs det att (5)__________________________________________________________________________ 
-men får absolut inte kontanimeras av (6)_______________________________________________________________________________ .
-
-(7)
+Jag är en vanlig (1)
+som (2)
+av en (3)
+för att (4)
+För att ritualen ska lyckas krävs det att (5)
+men får absolut inte kontanimeras av (6)
+Längre beskrivning:
 
 
 
@@ -19,4 +21,3 @@ Nyckelord:
 (4) syfte med ritual som ska genom föras
 (5) moment/symboler som krävs.
 (6) moment/symboler som är förbjudna.
-(7) Längre beskrivning
