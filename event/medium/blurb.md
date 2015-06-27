@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Ett medium
-next_page: /event/medium/blurb
+next_page: /event/medium
 ---
 
     Jag är en vanlig (1)   

@@ -1,0 +1,20 @@
+---
+layout: page
+title: Prolog - Regin - Medium
+next_page: /event/medium/blurb
+---
+
+##Om
+
+Lajvets värld är just nu som vår värld. Med skilnaden(om man inte tror på sånt) att det finns övernaturligaväsen. Dessa väsen har dock inte kunnat direkt påverka världen. Fören nu då ett handfull Medium blivigt influerade att att begå handlingar i världen. Något som kan förändra allt.
+I prencip definieras världens fysik av de väsen som influerar dem. Den influensen har under en tid varit begränsad till inspiration och drömmar. 
+
+Du spelar ett av dessa medium.
+
+
+##Utrustning: 
+
+Tåliga skor/stövlar som kan bli lite blöta. I övrigt kläder efter väder. Vad du behöver för att äta.
+
+
+
