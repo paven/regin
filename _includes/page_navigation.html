@@ -4,7 +4,6 @@
 {% for item in site.data.toc %}
   {% assign all_docs = all_docs | concat: item.docs %}
 {% endfor %}
-{% assign all_docs = all_docs | where_exp: "doc", "site.pages contains doc" %}
 
 {% assign found_current = false %}
 {% for doc in all_docs %}
