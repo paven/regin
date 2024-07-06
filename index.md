@@ -3,7 +3,7 @@ layout: page
 title: Välkommen till Regin - Ett samtida Dark Fantasy-rollspel
 description: Regin är ett rollspel där du spelar som ett mäktigt väsen i en värld där magi och teknologi möts. Skapa din egen legend i en berättelse som spänner över världar.
 keywords: rollspel, dark fantasy, magi, gudar, andar, samtida, myter, legender
-next_page: /Inledning/
+next_page: inledning/
 ---
 
 # Välkommen till Regin
