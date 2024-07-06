@@ -1,31 +1,29 @@
 {% assign current_url = page.url | remove: "/" %}
-{% assign found_current_page = false %}
+{% assign all_docs = "" | split: "" %}
 
 {% for item in site.data.toc %}
-  {% assign doc_index = 0 %}
-  {% for doc in item.docs %}
-    {% if doc == current_url %}
-      {% assign found_current_page = true %}
+  {% assign all_docs = all_docs | concat: item.docs %}
+{% endfor %}
 
-      {% if doc_index > 0 %}
-        {% assign prev_doc = item.docs[doc_index - 1] %}
-        <a class="pagination-item older" href="{{ prev_doc }}/#content">föregående</a>
-      {% else %}
-        <a class="pagination-item older" href="/#content">hem</a>
-      {% endif %}
+{% for doc in all_docs %}
+  {% if doc == current_url %}
+    {% assign doc_index = forloop.index0 %}
+    {% assign docs_size = all_docs | size %}
 
-      {% if doc_index < item.docs.size - 1 %}
-        {% assign next_doc = item.docs[doc_index + 1] %}
-        <a class="pagination-item newer next" href="{{ next_doc }}/#content">nästa</a>
-      {% else %}
-        <a class="pagination-item newer next" href="/#content">hem</a>
-      {% endif %}
+    {% if doc_index > 0 %}
+      {% assign prev_doc = all_docs[doc_index - 1] %}
+      <a class="pagination-item older" href="{{ site.baseurl }}/{{ prev_doc }}/#content">föregående</a>
+    {% else %}
+      <a class="pagination-item older" href="{{ site.baseurl }}/#content">hem</a>
     {% endif %}
 
-    {% assign doc_index = doc_index | plus: 1 %}
-  {% endfor %}
+    {% if doc_index < docs_size - 1 %}
+      {% assign next_doc = all_docs[doc_index + 1] %}
+      <a class="pagination-item newer next" href="{{ site.baseurl }}/{{ next_doc }}/#content">nästa</a>
+    {% else %}
+      <a class="pagination-item newer next" href="{{ site.baseurl }}/#content">hem</a>
+    {% endif %}
 
-  {% if found_current_page %}
-    {% break %}
+    {% break %} 
   {% endif %}
 {% endfor %}
