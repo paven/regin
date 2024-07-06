@@ -8,16 +8,17 @@
       {% assign doc_index = forloop.index0 %}
 
       {% if doc_index > 0 %}
-        <a class="pagination-item older" href="{{ site.baseurl }}/{{ item.docs[doc_index - 1] }}/#content">föregående</a>
+        {% assign prev_doc = item.docs[doc_index - 1] %}
+        <a class="pagination-item older" href="{{ prev_doc }}/#content">föregående</a>
       {% else %}
-        <a class="pagination-item older" href="{{ site.baseurl }}/#content">start</a> 
+        <a class="pagination-item older" href="/#content">hem</a>
       {% endif %}
 
       {% if doc_index < docs_size - 1 %}
         {% assign next_doc = item.docs[doc_index + 1] %}
-        <a class="pagination-item newer next" href="{{ site.baseurl }}/{{ next_doc }}/#content">nästa</a>
+        <a class="pagination-item newer next" href="{{ next_doc }}/#content">nästa</a>
       {% else %}
-        <a class="pagination-item newer next" href="{{ site.baseurl }}/#content">start</a> 
+        <a class="pagination-item newer next" href="/#content">hem</a>
       {% endif %}
 
       {% break %}
