@@ -1,11 +1,11 @@
 {% assign current_url = page.url | remove: "/" %}
+{% assign found_current_page = false %}
 
 {% for item in site.data.toc %}
+  {% assign doc_index = 0 %}
   {% for doc in item.docs %}
     {% if doc == current_url %}
-
-      {% assign docs_size = item.docs | size %}
-      {% assign doc_index = forloop.index0 %}
+      {% assign found_current_page = true %}
 
       {% if doc_index > 0 %}
         {% assign prev_doc = item.docs[doc_index - 1] %}
@@ -14,14 +14,18 @@
         <a class="pagination-item older" href="/#content">hem</a>
       {% endif %}
 
-      {% if doc_index < docs_size - 1 %}
+      {% if doc_index < item.docs.size - 1 %}
         {% assign next_doc = item.docs[doc_index + 1] %}
         <a class="pagination-item newer next" href="{{ next_doc }}/#content">nästa</a>
       {% else %}
         <a class="pagination-item newer next" href="/#content">hem</a>
       {% endif %}
-
-      {% break %}
     {% endif %}
+
+    {% assign doc_index = doc_index | plus: 1 %}
   {% endfor %}
+
+  {% if found_current_page %}
+    {% break %}
+  {% endif %}
 {% endfor %}
