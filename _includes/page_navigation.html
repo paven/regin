@@ -14,6 +14,13 @@
       current_url: {{ current_url }}<br>
       doc_index: {{ doc_index }}<br>
       docs_size: {{ docs_size }}<br>
+      all_docs: {{all_docs}}<br>
+      current_url: {{current_url}}<br>
+      doc: {{doc}}
+      all_docs[doc_index - 1]: {{all_docs[doc_index - 1]}}
+      all_docs[doc_index + 1]: {{all_docs[doc_index + 1]}}
+      *all_docs[doc_index + 1]: {{all_docs[doc_index + 1] || "alternativ"}}
+      *all_docs[doc_index - 1]: {{all_docs[doc_index - 1] || "alternativ"}}
     </div>
 
     {% if doc_index > 0 %}
