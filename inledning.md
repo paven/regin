@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Inledning
-next_page: sammanfattning/
 ---
 
 
