@@ -8,8 +8,7 @@
       {% assign doc_index = forloop.index0 %}
 
       {% if doc_index > 0 %}
-        {% assign prev_doc = item.docs[doc_index - 1] %}
-        <a class="pagination-item older" href="{{ site.baseurl }}/{{ prev_doc }}/#content">föregående</a>
+        <a class="pagination-item older" href="{{ site.baseurl }}/{{ item.docs[doc_index - 1] }}/#content">föregående</a>
       {% else %}
         <a class="pagination-item older" href="{{ site.baseurl }}/#content">start</a> 
       {% endif %}
