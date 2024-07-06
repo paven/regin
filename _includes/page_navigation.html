@@ -1,8 +1,10 @@
-<{% assign current_url = page.url | remove: "/" %}
+{% assign current_url = page.url | remove: "/" %}
 
 {% for item in site.data.toc %}
   {% for doc in item.docs %}
     {% if doc == current_url %}
+
+      {% assign docs_size = item.docs | size %}
       {% assign doc_index = forloop.index0 %}
 
       {% if doc_index > 0 %}
@@ -11,12 +13,12 @@
         <a class="pagination-item older" href="{{ site.baseurl }}/{{ prev_doc }}/#content">föregående</a>
       {% endif %}
 
-      {% if doc_index < item.docs.size - 1 %}
+      {% if doc_index < docs_size - 1 %}
         {% assign next_doc = item.docs[doc_index + 1] %}
         <a class="pagination-item newer next" href="{{ site.baseurl }}/{{ next_doc }}/#content">nästa</a>
       {% endif %}
 
-      {% break %}  
+      {% break %}
     {% endif %}
   {% endfor %}
 {% endfor %}
