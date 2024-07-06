@@ -1,25 +1,19 @@
-{% assign purl = page.url | remove: "/" %}
-{% if this_url == purl %}
-  {% assign a = "active" %}
-{% else %}
-  {% assign a = "" %}
-{% endif %}
-{% if this_url != "" %} 
-  {% for p in site.pages %}
-    {% if p.url == this_url %}
-      <a class="{{ a }} sidebar-nav-item" href="{{ site.baseurl }}{{ p.url }}#content">{{ p.title }}</a>
-      {% if p.next_page %}
-        {% assign this_url= p.next_page %}
+{% for item in site.data.toc %}
+  {% assign current_url = page.url | remove: "/" %}
+
+  <a class="sidebar-nav-item {% for doc in item.docs %}{% if doc == current_url %}active{% endif %}{% endfor %}" href="#">{{ item.title }}</a>
+  <ul class="sidebar-nav-submenu">
+    {% for doc in item.docs %}
+      {% assign doc_page = site.pages | where: "url", "/" | where: "name", doc | append: ".md" | first %}
+      {% if doc_page %}
+        <li>
+          <a href="{{ site.baseurl }}/{{ doc }}/#content">{{ doc_page.title }}</a>
+        </li>
       {% else %}
-        {% assign this_url= "" %}
+        <li>
+          <a href="{{ site.baseurl }}/{{ doc }}/#content">{{ doc }}</a>
+        </li>
       {% endif %}
-      {% include navigation_item.html %}
-      {% break %}
-    {% endif %}
-    {% if forloop.last == true %} {% comment %} lägger till sista länken om en en flaktig referens gjorts tidigare {% endcomment %}
-      <!--ERROR: {{ this_url }} is not a page-->
-      {% assign this_url= "" %}
-      {% include navigation_item.html %}
-    {% endif %}
-  {% endfor %} 
-{% endif %}
+    {% endfor %}
+  </ul>
+{% endfor %}

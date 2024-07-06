@@ -1,20 +1,22 @@
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.url }}page{{paginator.next_page}}/#content">föregående</a>
-  {% else %}
-    <span class="pagination-item older">&nbsp;</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.url }}/#content">nästa</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.url }}page{{paginator.previous_page}}/#content">nästa</a>
+<{% assign current_url = page.url | remove: "/" %}
+
+{% for item in site.data.toc %}
+  {% for doc in item.docs %}
+    {% if doc == current_url %}
+      {% assign doc_index = forloop.index0 %}
+
+      {% if doc_index > 0 %}
+        {% assign prev_doc = item.docs[doc_index - 1] %}
+        {% assign prev_doc_page = site.pages | where: "url", "/" | where: "name", prev_doc | append: ".md" | first %}
+        <a class="pagination-item older" href="{{ site.baseurl }}/{{ prev_doc }}/#content">föregående</a>
+      {% endif %}
+
+      {% if doc_index < item.docs.size - 1 %}
+        {% assign next_doc = item.docs[doc_index + 1] %}
+        <a class="pagination-item newer next" href="{{ site.baseurl }}/{{ next_doc }}/#content">nästa</a>
+      {% endif %}
+
+      {% break %}  
     {% endif %}
-  {% else %}
-  {% if page.next_page %}
-    <a class="pagination-item newer next" href="{{site.url}}/{{ page.next_page }}/#content">nästa</a>
-  {% else %}
-    <a class="pagination-item newer" href="{{ site.url }}/#content">nästa</a>
-  {% endif %}
-  {% endif %}
-</div>
+  {% endfor %}
+{% endfor %}
