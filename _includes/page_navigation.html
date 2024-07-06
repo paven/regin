@@ -11,11 +11,15 @@
         {% assign prev_doc = item.docs[doc_index - 1] %}
         {% assign prev_doc_page = site.pages | where: "url", "/" | where: "name", prev_doc | append: ".md" | first %}
         <a class="pagination-item older" href="{{ site.baseurl }}/{{ prev_doc }}/#content">föregående</a>
+      {% else %}
+        <a class="pagination-item older" href="{{ site.baseurl }}/#content">hem</a> 
       {% endif %}
 
       {% if doc_index < docs_size - 1 %}
         {% assign next_doc = item.docs[doc_index + 1] %}
         <a class="pagination-item newer next" href="{{ site.baseurl }}/{{ next_doc }}/#content">nästa</a>
+      {% else %}
+        <a class="pagination-item newer next" href="{{ site.baseurl }}/#content">hem</a> 
       {% endif %}
 
       {% break %}
