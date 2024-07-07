@@ -1,4 +1,4 @@
-{% assign current_url = page.url | remove: "/" %}
+{% assign current_url = page.url %} 
 {% assign all_docs = "" | split: "" %}
 
 {% for item in site.data.toc %}
@@ -9,11 +9,11 @@
 {% for doc in all_docs %}
   {% if found_current %}
     {% assign next_doc = doc %}
-    <a class="pagination-item newer next" href="{{ site.baseurl }}/{{ next_doc }}/#content">nästa</a>
+    <a class="pagination-item newer next" href="{{ next_doc }}#content">nästa</a>
     {% break %}
-  {% elsif doc == current_url %}
+  {% elsif doc == current_url %} 
     {% assign found_current = true %}
-    <a class="pagination-item older" href="{{ site.baseurl }}/{{ prev_doc }}/#content">föregående</a>
+    <a class="pagination-item older" href="{{ prev_doc }}#content">föregående</a>
   {% endif %}
   {% assign prev_doc = doc %}
 {% endfor %}
