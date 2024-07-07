@@ -3,7 +3,9 @@ layout: default
 title: Test av föregående/nästa länkar
 ---
 {% assign doc = "kosmologi" %}
-{% assign doc_page = site.pages | find: "path", doc %}<a href="{{ site.baseurl }}/{{ doc_page }}/#content">doc_page ({{ doc_page }}, {{doc}})</a>
+{% assign doc_page = site.pages | find: "path", doc | first %}
+
+<a href="{{ site.baseurl }}/{{ doc_page }}/#content">doc_page ({{ doc_page }}, {{doc}})</a>
 
 
 
