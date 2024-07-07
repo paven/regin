@@ -1,0 +1,60 @@
+{% assign link_to_validate = include.link %}
+{% assign link_details = nil %}
+{% assign found_in_toc = false %}
+{% assign all_docs = "" | split: "" %}
+
+{% for item in site.data.toc %}
+  {% assign all_docs = all_docs | concat: item.docs %}
+  {% if item.docs contains link_to_validate %}
+    {% assign found_in_toc = true %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+{% for page in site.pages %}
+  {% if page.url == link_to_validate %}
+    {% assign link_details = page %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+{% assign prev_doc_in_toc = nil %}
+{% assign next_doc_in_toc = nil %}
+{% for i in (0..all_docs.size) %}
+  {% if all_docs[i] == link_to_validate %}
+    {% if i > 0 %}
+      {% assign prev_doc_in_toc = all_docs[i - 1] %}
+    {% endif %}
+    {% if i < all_docs.size - 1 %}
+      {% assign next_doc_in_toc = all_docs[i + 1] %}
+    {% endif %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+{% assign prev_page = nil %}
+{% assign next_page = nil %}
+{% assign found_current = false %}
+{% for page in site.pages %}
+  {% if page.url == link_to_validate %}
+    {% assign found_current = true %}
+  {% elsif found_current %}
+    {% assign next_page = page %}
+    {% break %}
+  {% else %}
+    {% assign prev_page = page %}
+  {% endif %}
+{% endfor %}
+
+{
+  "valid": {% if link_details %}true{% else %}false{% endif %},
+  "is_current_page": {{ link_to_validate == page.url }},
+  "url": {{ link_details.url | jsonify }}, 
+  "text": {{ (include.link_text | default: link_details.title) | jsonify }}, 
+  "title": {{ link_details.title | jsonify }},
+  "part_of_toc": {{ found_in_toc }},
+  "prev_doc_in_toc": {{ prev_doc_in_toc | jsonify }},
+  "next_doc_in_toc": {{ next_doc_in_toc | jsonify }},
+  "prev_page_in_site": {{ prev_page.url | jsonify }},
+  "next_page_in_site": {{ next_page.url | jsonify }}
+}
