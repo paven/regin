@@ -11,19 +11,19 @@
 
   {% if doc_page %}  
     {% if found_current %}
-      {% assign next_doc = doc %}
-      <a class="pagination-item newer next" href="{{ next_doc }}#content">nästa</a>
+      {% assign next_doc = doc_page %}
+      <a class="pagination-item newer next" href="{{ next_doc.url }}#content">{{ doc_page.title OR "nästa" }}</a>
       {% break %}
     {% elsif doc == current_url %}
       {% assign found_current = true %}
 
       {% if prev_doc %}  
-        <a class="pagination-item older" href="{{ prev_doc }}#content">föregående</a>
+        <a class="pagination-item older" href="{{ prev_doc.url }}#content">{{ doc_page.title OR "föregående"}}</a>
       {% else %}
-        <a class="pagination-item older" href="{{ site.baseurl }}/#content">hem</a>
+        <a class="pagination-item older" href="{{ site.baseurl }}/#content">Välkommen</a>
       {% endif %}
     {% endif %}
 
-    {% assign prev_doc = doc %}
+    {% assign prev_doc = doc_page %}
   {% endif %}
 {% endfor %}
