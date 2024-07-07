@@ -8,11 +8,10 @@ h2>Data från "kosmologi"-sidan</h2>
 {% assign kosmologi_link = "/kosmologi/" %}
 {% assign kosmologi_details = include link_details.html link=kosmologi_link | json_parse %}
 
-{% if kosmologi_details.valid %}
   <h3>{{ kosmologi_details.title }}</h3>
   <p>URL: {{ kosmologi_details.url }}</p>
   <p>Innehåller följande text:</p>
-  <p>{{ kosmologi_details.page_data.content | strip_html | truncatewords: 50 }}</p>
+  <p>{{ kosmologi_details.page_data | strip_html | truncatewords: 50 }}</p>
   
   <h3>Navigeringslänkar:</h3>
   <ul>
@@ -21,10 +20,8 @@ h2>Data från "kosmologi"-sidan</h2>
     <li>Föregående sida (site): {{ kosmologi_details.prev_page_in_site }}</li>
     <li>Nästa sida (site): {{ kosmologi_details.next_page_in_site }}</li>
   </ul>
+  <p>{{ kosmologi_details | strip_html | truncatewords: 50 }}</p>
 
-{% else %}
-  <p>Sidan "kosmologi" hittades inte.</p>
-{% endif %}
 
 
 {% assign doc = "/kosmologi/" %}
