@@ -7,22 +7,23 @@
 
 {% assign found_current = false %}
 {% for doc in all_docs %}
-  {% for p in site.pages %}
-    {% if p.url == doc %}
-      {% assign doc_page = p %}
-      {% break %}
-    {% endif %}
-  {% endfor %}
+  {% assign doc_page = site.pages | find: "url", doc %}
 
-  {% if doc_page %}
+  {% if doc_page %}  
     {% if found_current %}
-      {% assign next_doc = doc_page %}
-      <a class="pagination-item newer next" href="{{ next_doc.url }}#content">nästa</a>
+      {% assign next_doc = doc %}
+      <a class="pagination-item newer next" href="{{ next_doc }}#content">nästa</a>
       {% break %}
     {% elsif doc == current_url %}
       {% assign found_current = true %}
-      <a class="pagination-item older" href="{{ prev_doc.url }}#content">föregående</a>
+
+      {% if prev_doc %}  
+        <a class="pagination-item older" href="{{ prev_doc }}#content">föregående</a>
+      {% else %}
+        <a class="pagination-item older" href="{{ site.baseurl }}/#content">hem</a>
+      {% endif %}
     {% endif %}
-    {% assign prev_doc = doc_page %}
+
+    {% assign prev_doc = doc %}
   {% endif %}
 {% endfor %}
