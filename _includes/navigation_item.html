@@ -1,9 +1,10 @@
 {% for item in site.data.toc %}
   {% assign current_url = page.url | remove: "/" %}
+  {% assign docs = item.docs | where_exp: "doc", "site.pages contains doc" %}
 
   <a class="sidebar-nav-item {% for doc in item.docs %}{% if doc == current_url %}active{% endif %}{% endfor %}" href="#">{{ item.title }}</a>
   <ul class="sidebar-nav-submenu">
-    {% for doc in item.docs %}
+    {% for doc in docs %}
       {% assign doc_page = site.pages | where: "url", "/" | where: "name", doc | append: ".md" | first %}
       {% if doc_page %}
         <li>
