@@ -6,6 +6,14 @@ title: Test av föregående/nästa länkar
 {% assign doc_page = site.pages | find: "url", doc %}
 <a href="{{ doc_page.url | relative_url }}#content">{{ doc_page.title }}</a> 
 
+{% assign doc = "/kosmologi/" %}  {# Add trailing slash to match the URL format in site.pages #}
+{% assign doc_page = site.pages | find: "url", doc %}
+
+{% if doc_page %}
+  <a href="{{ doc_page.url | relative_url }}#content">{{ doc_page.title }}</a>
+{% else %}
+  <p>Sidan hittades inte.</p>
+{% endif %}
 
 <h2>Metod 1: Direkt från toc.yml</h2>
 
