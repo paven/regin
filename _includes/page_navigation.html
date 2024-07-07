@@ -7,6 +7,7 @@
 
 {% assign found_current = false %}
 {% for doc in all_docs %}
+{% assign doc_page = nil %}
   {% for p in site.pages %}
     {% if p.url == doc %}
       {% assign doc_page = p %}
