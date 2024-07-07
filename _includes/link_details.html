@@ -1,12 +1,11 @@
 {% assign link_to_validate = include.link %}
 {% assign link_details = nil %}
 {% assign found_in_toc = false %}
-{% assign all_docs = "" | split: "" %}
 
 {% for item in site.data.toc %}
-  {% assign all_docs = all_docs | concat: item.docs %}
   {% if item.docs contains link_to_validate %}
     {% assign found_in_toc = true %}
+    {% assign current_section = item %}  
     {% break %}
   {% endif %}
 {% endfor %}
@@ -20,17 +19,17 @@
 
 {% assign prev_doc_in_toc = nil %}
 {% assign next_doc_in_toc = nil %}
-{% for i in (0..all_docs.size) %}
-  {% if all_docs[i] == link_to_validate %}
-    {% if i > 0 %}
-      {% assign prev_doc_in_toc = all_docs[i - 1] %}
+{% if found_in_toc %}
+  {% for doc in current_section.docs %} 
+    {% if next_doc_in_toc %}
+      {% break %} 
+    {% elsif doc == link_to_validate %}
+      {% assign next_doc_in_toc = true %} 
+    {% else %}
+      {% assign prev_doc_in_toc = doc %} 
     {% endif %}
-    {% if i < all_docs.size - 1 %}
-      {% assign next_doc_in_toc = all_docs[i + 1] %}
-    {% endif %}
-    {% break %}
-  {% endif %}
-{% endfor %}
+  {% endfor %}
+{% endif %}
 
 {% assign prev_page = nil %}
 {% assign next_page = nil %}

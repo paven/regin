@@ -29,8 +29,6 @@ h2>Data från "kosmologi"-sidan</h2>
   </ul>
   <p>{{ kosmologi_details | strip_html | truncatewords: 50 }}</p>
 
-{{include link_details.html link=kosmologi_link}}
-
 {% assign doc = "/kosmologi/" %}
 {% assign doc_page = site.pages | find: "url", doc | first%}
 <a href="{{ doc_page.url | relative_url }}#content">{{ doc_page.title }}</a> 
