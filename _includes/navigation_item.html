@@ -1,5 +1,6 @@
 {% for item in site.data.toc %}
-  <a class="sidebar-nav-item {% for doc in item.docs %}{% assign doc_page = site.pages | find: "url", doc %}{% if doc_page.url == page.url %}active{% endif %}{% endfor %}" href="#">{{ item.title }}</a>
+  {% assign first_doc = item.docs | first %}
+  <a class="sidebar-nav-item {% for doc in item.docs %}{% assign doc_page = site.pages | find: "url", doc %}{% if doc_page.url == page.url %}active{% endif %}{% endfor %}" href="{{ first_doc }}#">{{ item.title }}</a>
   <ul class="sidebar-nav-submenu">
     {% for doc in item.docs %}
       {% assign doc_page = nil %}
