@@ -15,9 +15,11 @@
   {% endfor %}
   {% if doc_page %}  
     {% if found_current %}
-      {% assign next_doc = doc_page %}
-      <a class="pagination-item newer next" href="{{ next_doc.url }}#content">{{ next_doc.title }}</a>
-      {% break %}
+      {% unless doc == current_url %} 
+        {% assign next_doc = doc_page %}
+        <a class="pagination-item newer next" href="{{ next_doc.url }}#content">{{ next_doc.title }}</a>
+        {% break %}
+      {% endunless %}
     {% elsif doc == current_url %}
       {% assign found_current = true %}
 
