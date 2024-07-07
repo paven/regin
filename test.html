@@ -5,8 +5,7 @@ title: Test av föregående/nästa länkar
 {% assign doc = "kosmologi" %}
 {% assign doc_page = site.pages | find: "path", doc | first %}
 
-<a href="{{ site.baseurl }}/{{ doc_page }}/#content">doc_page ({{ doc_page }}, {{doc}})</a>
-
+<a href="{{ doc_page.url | relative_url }}#content">{{ doc_page.title }}</a> 
 
 
 <h2>Metod 1: Direkt från toc.yml</h2>
