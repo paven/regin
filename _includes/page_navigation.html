@@ -7,8 +7,10 @@
 
 {% assign found_current = false %}
 {% for doc in all_docs %}
-  {% assign doc_page = site.pages | find: "url", doc %}
-
+  {% if p.url == doc %}
+    {% assign doc_page = p %}
+    {% break %}
+  {% endif %}
   {% if doc_page %}  
     {% if found_current %}
       {% assign next_doc = doc_page %}
