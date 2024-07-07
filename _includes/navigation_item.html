@@ -2,6 +2,7 @@
   <a class="sidebar-nav-item {% for doc in item.docs %}{% assign doc_page = site.pages | find: "url", doc %}{% if doc_page.url == page.url %}active{% endif %}{% endfor %}" href="#">{{ item.title }}</a>
   <ul class="sidebar-nav-submenu">
     {% for doc in item.docs %}
+      {% assign doc_page = nil %}
       {% for p in site.pages %}
         {% if p.url == doc %}
           {% assign doc_page = p %}
