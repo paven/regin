@@ -2,12 +2,17 @@
 layout: default
 title: Test av föregående/nästa länkar
 ---
-{% assign doc = "kosmologi" %}
-{% assign doc_page = site.pages | find: "url", doc %}
+{% assign doc = "/kosmologi/" %}
+{% assign doc_page = site.pages | find: "url", doc | first%}
 <a href="{{ doc_page.url | relative_url }}#content">{{ doc_page.title }}</a> 
 
-{% assign doc = "/kosmologi/" %}  {# Add trailing slash to match the URL format in site.pages #}
-{% assign doc_page = site.pages | find: "url", doc %}
+{% assign doc = "/kosmologi/" %}
+{% for p in site.pages %}
+  {% if p.url == doc %}
+    {% assign doc_page = p %}
+    {% break %}
+  {% endif %}
+{% endfor %}
 
 {% if doc_page %}
   <a href="{{ doc_page.url | relative_url }}#content">{{ doc_page.title }}</a>
