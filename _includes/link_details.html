@@ -1,5 +1,10 @@
 {% assign link_to_validate = include.link %} 
-{% assign page_details = site.pages | find: "url", link_to_validate %}
+{% for p in site.pages %}
+  {% if p.url == doc %}
+    {% assign page_details = p %}
+    {% break %}
+  {% endif %}
+{% endfor %}
 
 {
   "pages": {{ page_details | jsonify }}
