@@ -11,14 +11,6 @@ h2>Data från "kosmologi"-sidan</h2>
 <pre>
 {{ link_details_json }}
 </pre>
-
-{% assign kosmologi_link = "/kosmologi/" %}
-{% assign kosmologi_details = include link_details.html link=kosmologi_link | json_parse %}
-
-  <h3>{{ kosmologi_details.title }}</h3>
-  <p>URL: {{ kosmologi_details.url }}</p>
-  <p>Innehåller följande text:</p>
-  <p>{{ kosmologi_details.page_data | strip_html | truncatewords: 50 }}</p>
   
   <h3>Navigeringslänkar:</h3>
   <ul>
