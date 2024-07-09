@@ -14,6 +14,8 @@ h2>Data från "kosmologi"-sidan</h2>
   
 
 {% assign link_to_lookup = link_to_validate %} 
+
+link_to_lookup: {{ link_to_lookup }}
 {% for p in site.pages %}
   {% if p.url == link_to_lookup %}
     {% assign page_details = p %}
