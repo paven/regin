@@ -26,6 +26,6 @@ link_to_lookup: {{ link_to_lookup }}
 <pre>
 {
   "url": {{ include.link | jsonify }}
-  "pages": {{ page_details | jsonify }}
+  "pages": {{ page_details | json: 4 }}
 }
 </pre>
