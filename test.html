@@ -12,3 +12,18 @@ h2>Data från "kosmologi"-sidan</h2>
 {{ link_details_json }}
 </pre>
   
+
+{% assign link_to_lookup = link_to_validate %} 
+{% for p in site.pages %}
+  {% if p.url == link_to_lookup %}
+    {% assign page_details = p %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+<pre>
+{
+  "url": {{ include.link | jsonify }}
+  "pages": {{ page_details | jsonify }}
+}
+</pre>
