@@ -6,10 +6,10 @@ title: Test av föregående/nästa länkar
 h2>Data från "kosmologi"-sidan</h2>
 
 {% assign link_to_validate = "/kosmologi/" %}  
-{% assign link_details_json = include link_details.html link=link_to_validate %}
+{% assign link_details_json = include link_details.html link=link_to_validate | jsonify %}
 
 <pre>
-{{ link_details_json }}
+call: {{ link_details_json }}
 </pre>
   
 
