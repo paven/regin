@@ -7,6 +7,6 @@
 {% endfor %}
 
 {
-  "url": {{ include.link | jsonify }}
-  "pages": {{ page_details | jsonify }}
+  "url": {{ include.link  }}
+  "pages": {{ page_details | json 4 }}
 }
