@@ -1,6 +1,6 @@
-{% assign link_to_validate = include.link %} 
+{% assign link_to_lookup = include.link %} 
 {% for p in site.pages %}
-  {% if p.url == doc %}
+  {% if p.url == link_to_lookup %}
     {% assign page_details = p %}
     {% break %}
   {% endif %}
