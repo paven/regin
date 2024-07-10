@@ -9,7 +9,7 @@ h2>Data från "kosmologi"-sidan</h2>
 {% assign link_details_json = include link_details.html link=link_to_validate | jsonify %}
 
 <pre>
-call: {{ link_details_json }}
+call: {{ link_details_json | json }}
 </pre>
   
 
