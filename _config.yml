@@ -35,3 +35,12 @@ gems:
 
 first_page:
   url: /index/
+
+exclude:
+   - .sass-cache/
+   - .jekyll-cache/
+   - gemfiles/
+   - Gemfile
+   - Gemfile.lock
+   - node_modules/
+   - test/
