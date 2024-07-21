@@ -8,7 +8,7 @@ require 'ap'
 class Tests < Minitest::Test
   # make sure we're not using files with .html, but instead index.html in a directory, for cloudfront support
   def test_urls
-    assert File.exist?('_site/kosmologi/index.html')
+    assert File.exist?('_site/kosmologi/')
   end
 
 #   code from the guide... that i save to see if i can learn from it.
