@@ -5,15 +5,14 @@ title: Test av föregående/nästa länkar
 
 h2>Data från "kosmologi"-sidan</h2>
 
-{% assign link_to_validate = "/kosmologi/" %}  
-{% assign link_details_json = include link_details.html link=link_to_validate | jsonify %}
-
+{% assign link_to_validate = "/kosmologi/" %}
+{% include link_details.html link='/kosmologi/' %}
 <pre>
-call: {{ link_details_json | json }}
+call: {{ page.link_details }}
 </pre>
-  
 
-{% assign link_to_lookup = link_to_validate %} 
+
+{% assign link_to_lookup = link_to_validate %}
 
 link_to_lookup: {{ link_to_lookup }}
 {% for p in site.pages %}
@@ -25,7 +24,7 @@ link_to_lookup: {{ link_to_lookup }}
 
 <pre>
 {
-  "url": {{ include.link  }}
+  "url":
   "pages": {{ page_details | json: 4 }}
 }
 </pre>
