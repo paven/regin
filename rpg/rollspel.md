@@ -40,7 +40,6 @@ Dina **specialiteter** bör spegla din gudomliga natur inom nutidens svaga magi.
 
 - Influera en människa via drömmar eller subtila känsloimpulser
 - Se edernas status - svurna, brutna, avsvurna - hos andra Regin
-- Använda kärlets yrkeskunskap utan stressavdrag
 
 Specialiteter som förutsätter stark magi - materialisering, direkt förändra naturlagar - är inte tillgängliga i nutidens era om inget annat avtalas med SL.
 
