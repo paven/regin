@@ -73,6 +73,12 @@ Nivån bestämmer storleken på din Dissonansbana. Mer om konformitet och disson
 
 ---
 
-## Steg 7: Stress
+## Steg 7: Detaljer
+
+Namn, utseende, bakgrundshistoria. Tänk på hur din karaktärs historia och aspekter kopplar till Regins värld och de andra spelarnas karaktärer.
+
+---
+
+## Steg 8: Stress
 
 Följ [Fate Condensed](https://fate-srd.com/fate-condensed/getting-started#stress-consequences). Lägg till en Dissonansbana vars storlek bestäms av din Konformitetsnivå.
