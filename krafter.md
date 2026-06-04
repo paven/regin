@@ -5,7 +5,7 @@ title: Krafter
 
 Regin har samma krafter som [andar](/andar/#content). Men särskiljer 
 sig främst i att de kan ta sig till världen och ha en fysisk form. Deras förmåga att ta 
-sig till världen kommer ur att dev har stark konformitet med världen, 
+sig till världen kommer ur att de har stark konformitet med världen, 
 tur och viljan. De mäktigaste andarna har inte behovet eller viljan 
 att ta sig in i världen då det troligtvis skulle göra dem mer skada 
 än nytta. 
@@ -15,7 +15,7 @@ tiderna, men nu är magin svag. Krafterna beskrivs utifrån nuets vilkor.
 
 ###Influera människor och Regin
 När regin är i världen styrs de av de naturlagar som råder i 
-världen dör tillfället. Nu när magin är svag kan de enbart 
+världen då tillfället. Nu när magin är svag kan de enbart 
 påverka världen genom att influera människor och andra regin. Regin 
 och troende människor är mer motagliga för denna påverkan, då de 
 vet att det är möjligt. Övertygade ateister har ett inneboende motstånd mot 
