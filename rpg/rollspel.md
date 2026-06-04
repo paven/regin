@@ -39,6 +39,8 @@ Du börjar med minst ett ankare - ditt kärl. Fler kan vinnas under spel:
 
 Förlorar du alla ankare börjar du driva. SL signalerar det som en hotande konsekvens - inte som ett plötsligt slut.
 
+Mer om ankare som kosmologiskt fenomen: [Andar](/andar/).
+
 ---
 
 ## Specialiteter
