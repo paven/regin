@@ -22,7 +22,7 @@ Regin kan se om någon svurit en ed, avsvurit en ed. Eller brutit en ed. De som 
 ##Panteon Eder
 När man går med i en [Panteon](/panteoner/) svär man i regel en ed för att binda sig samman. Detta görs även om man traditionellt sätt hört ihop. Dessa sällskap kan sedan i grupp få respekt av andra. 
 
-Panteoner kan även svära eder antingen som grupp eller via reperesentater till andra aktörer, beroende på hur de svurits samman. Dessa eder är lika bindande så länge man tillhör den panteoner. Man avsvär sig en grupp på samma sätt som andra eder. 
+Panteoner kan även svära eder antingen som grupp eller via representanter till andra aktörer, beroende på hur de svurits samman. Dessa eder är lika bindande så länge man tillhör den panteoner. Man avsvär sig en grupp på samma sätt som andra eder. 
 
 Eder kan även sväras till och mellan panteoner.
 
@@ -31,7 +31,7 @@ De rådande är bundna av de tjänster de är skyldiga andra. Genom att svära e
 
 ##Special fall
 ###Eder i världsfickor
-Eder kan sväras i [värdsfickor](/kosmologi/). De fungerar då inte som ankare till världen utan till världsfickan. Skulle världsfickan upphöra, upplöses eden med den.
+Eder kan sväras i [världsfickor](/kosmologi/). De fungerar då inte som ankare till världen utan till världsfickan. Skulle världsfickan upphöra, upplöses eden med den.
 
 ###Avskrämandet
 Under avskärmandet, upplöstes i princip alla eder, skulder och löften. Spår av dessa och tidigare avsurna löften har oftast försvunnit helt. Även de sår som bildas när man bryter eder har ti de flesta fall läkt.  
