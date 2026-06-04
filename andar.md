@@ -15,11 +15,11 @@ Samtliga andar glider sakta ut från världens närhet ut mot abyssen som en del
 Det är Följeslagare, Artefakter, Drömmar och Ideér
 tioner
 
-##### Reel repersentationer
-Med reel reperesentation menas att det anden reperesenterar faktiskt finns i vår värld. Anden Öken, eller kanske den mer specifika anden Shara har en stark ankare i deras reela reperesentation. Något som dock gör dem inflexibla då om de börjar reperesentera något annat, tex  
+##### Reel representationer
+Med reel representation menas att det anden representerar faktiskt finns i vår värld. Anden Öken, eller kanske den mer specifika anden Shara har en stark ankare i deras reela representation. Något som dock gör dem inflexibla då om de börjar reperesentera något annat, tex  
 
 ##### Artefakter
-Reperesentationer är en stabil och pålitlig ankare, de är inte så kraft fulla men ofta beständiga över tid. 
+Representationer är en stabil och pålitlig ankare, de är inte så kraft fulla men ofta beständiga över tid. 
 
 ##### Följeslagare
 Den viktigaste och kraftigaste formen av Ankare. Det kräver troende som vill att anden ska vara san och tror på den samtidigt som det stämmer in i deras syn på världen.
