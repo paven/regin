@@ -8,40 +8,7 @@ Du spelar en **Regin** - ett gudomligt väsen som återvänt till världen efter
 
 Regin använder [Fate Condensed](https://fate-srd.com/fate-condensed) som regelsystem. Läs Fate för grunderna. Den här texten förklarar bara det som är Regin-specifikt eller avviker från Fate.
 
----
-
-## Skapa ditt väsen
-
-Följ [karaktärsskapande i Fate Condensed](https://fate-srd.com/fate-condensed/getting-started#character-creation) med följande anpassningar.
-
-### Aspekter
-
-Du har fem aspekter. Tre av dem är fördefinierade:
-
-**Regin-aspekt** (Högkoncept)  
-Vem är du som gudomligt väsen? Ditt ursprung, din arketyp, ditt namn i mytologin. Den definierar också vad som är ditt naturliga domän - vad du kan göra utan att världen reagerar.  
-*"Skogens uråldrige väktare", "Tricksterguden ur asarnas krets", "Dödens namnlösa budbärare"*
-
-**Kärl-aspekt**  
-Vem är den människa vars kropp du besitter? Du bär deras minnen och förmågor - de är inte du, men de formar hur du möter världen.  
-*"Ensamstående sjuksköterska med ett svårt förflutet", "Arkeolog besatt av gamla kulturer"*
-
-**Ankare**  
-Vad håller dig kvar i världen och borta från Abyssen? En artefakt, en plats, troende som bär din legend, eller en ed du svurit.  
-*"Mitt svärd begravt i klosterträdgården", "Legenden om Valkyrian lever fortfarande i Norden"*
-
-De övriga två aspekterna är fria. Din **Svårighet** kan gärna spegla spänningen mellan Regin och kärl, eller en gammal konflikt som följer dig.
-
-### Färdigheter och specialiteter
-
-Färdighetslistan körs [som i Fate Condensed](https://fate-srd.com/fate-condensed/getting-started#skills).
-
-Dina **specialiteter** bör spegla din gudomliga natur inom nutidens svaga magi. Rimliga exempel:
-
-- Influera en människa via drömmar eller subtila känsloimpulser
-- Se edernas status - svurna, brutna, avsvurna - hos andra Regin
-
-Specialiteter som förutsätter stark magi - materialisering, direkt förändra naturlagar - är inte tillgängliga i nutidens era om inget annat avtalas med SL.
+Redo att skapa ditt väsen? Gå till [Skapa ditt väsen](/karaktarsskapande/).
 
 ---
 
