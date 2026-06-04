@@ -1,12 +1,19 @@
+- title: Start
+  docs:
+  - /inledning/
+  - /sammanfattning/
 - title: Regin
   docs:
   - /kosmologi/
   - /regin/
+  - /vasen/
+  - /andar/
+  - /krafter/
+  - /eder/
   - /panteoner/
-- title: Rollspel
+  - /ovisheter/
+  - /historik/
+- title: Spel
   docs:
   - /rollspel/
-- title: Om
-  docs:
-  - /om/
-  - /blog/
+  - /karaktarsskapande/
