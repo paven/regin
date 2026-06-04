@@ -1,7 +1,9 @@
-- title: Start
+- title: Om
   docs:
   - /inledning/
   - /sammanfattning/
+  - /about/
+  - /blog/
 - title: Regin
   docs:
   - /kosmologi/
