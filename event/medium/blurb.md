@@ -9,7 +9,7 @@ next_page: /event/medium
     av en (3)   
     för att (4)   
     För att ritualen ska lyckas krävs det att (5)   
-    men får absolut inte kontanimeras av (6)   
+    men får absolut inte kontamineras av (6)   
     Längre beskrivning:    
 
 
