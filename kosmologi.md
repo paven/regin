@@ -15,7 +15,7 @@ Gränsen mellan världen och andevärlden hålls av en bariär. Den är i period
 
 ## Cirklar
 I världen finns och har det funnits magiska platser. Dessa är platser där andevärlden  och världen möts. Där är magin stark och bariären svag. I dessa områden kan de rådande råda och bygga sin makt.
-Innan avskärmandet var det i cirklar Regins styrde världen, deras kraft manifisterar sig starkast innom dessa områden. Vid avskärmandet försvan magin från cirklarna. De flesta av criklarna förtvinade, men ett få tal hade kraft kvar att finnas kvar, dock utan kraft nog att för magi. Dessa är andningshål och fängelse för de rådande som lyckats hålla sig kvar i vår värld.
+Innan avskärmandet var det i cirklar Regins styrde världen, deras kraft manifesterar sig starkast innom dessa områden. Vid avskärmandet försvan magin från cirklarna. De flesta av cirklarna förtvinade, men ett få tal hade kraft kvar att finnas kvar, dock utan kraft nog att för magi. Dessa är andningshål och fängelse för de rådande som lyckats hålla sig kvar i vår värld.
 
 ## Världsfickor
 Vissa rådande hade kraften att skapar fickor. Dessa ligger insprängda i världen eller i barriären oåtkomliga för de värdsliga. Om regins gamla boningar, (valhal, älvriket, olympen, pandemonium, himel och helveter) klarat sig genom avskärmandet så är de undan gömda i fickor.  De som gömt sig i dessa fickor, har varit avskärmade från världen och i de flesta fall även andevärlden. Portalerna är förstörda och vägen in och ut stängd. Som allt som rör regin annat ligger det mäktigast i cirklar.
