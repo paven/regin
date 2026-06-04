@@ -43,31 +43,7 @@ Förlorar du alla ankare börjar du driva. SL signalerar det som en hotande kons
 
 ## Konformitet och Dissonans
 
-### Konformitet
-
-Konformitet är inte en färdighet på pyramiden - det är en nivå du väljer vid karaktärsskapandet, som [Refresh](https://fate-srd.com/fate-condensed/getting-started#refresh). Den definierar din zon: vad du kan göra utan att världen reagerar.
-
-Inom din zon behövs inget slag. Det är bara hur världen fungerar.
-
-Det finns två sätt att vara Konform:
-
-**Rådande konformitet** - Du definierar reglerna för ditt domän. Din Regin-aspekt pekar ut vad som är ditt. Råttguden kan fylla en stad med råttor utan Dissonans - det är bara råttor som beter sig som råttor. Tor kan kalla ned blixten, men hammaren, åskan och det uppenbart gudomliga sättet tar Dissonans i en värld som glömt honom.
-
-**Följande konformitet** - Du anpassar dig till nutidens regler. Internet sätter spelregler idag. En Regin som formats i den eran manifesterar sig kanske som viralt innehåll eller algoritmisk påverkan - kraftfull just för att det är osynligt.
-
-Båda ger låg Dissonans, men av olika anledningar.
-
-**Låg Konformitet är roligare.** Du är uppenbart något annat - gudomligt, dramatiskt, omöjligt att ignorera.
-
-I gränsfall, när det är oklart om en handling faller inom ditt domän eller utanför världens tolerans, avgör SL om ett slag krävs.
-
-### Dissonans
-
-Dissonans är en ny stressbana som mäter hur mycket din gudomliga natur gnids mot världens förväntningar. Storleken på banan bestäms av din Konformitetsnivå, som [Fysisk och Mental stress](https://fate-srd.com/fate-condensed/getting-started#stress-consequences) bestäms av dina färdigheter.
-
-Du tar Dissonansstress när du agerar utanför din zon - en högt Konform Regin som vandrar genom väggar, en lågt Konform som försöker smälta in på ett jobbmöte.
-
-Dissonans återhämtas långsammare än vanlig stress - i Cirklar, i andevärlden, eller genom vila djupt förankrad i ditt domän. Fyll banan helt och du börjar ta konsekvenser som synliggör din gudomlighet på sätt du inte kan kontrollera.
+Din Konformitetsnivå väljer du när du [skapar ditt väsen](/karaktarsskapande/). Den styr din Dissonansbana och definierar vad du kan göra utan att världen reagerar.
 
 ---
 

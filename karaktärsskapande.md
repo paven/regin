@@ -39,6 +39,28 @@ Bestäm hur mycket ditt väsen tål innan det blir allvarligt skadat eller beseg
 
 Fyll i resten av karaktärsbladet med detaljer som namn, utseende, bakgrundshistoria och eventuella extra förmågor eller utrustning. Tänk på hur din karaktärs historia och aspekter kan kopplas till Regins värld och de andra spelarnas karaktärer.
 
+## Steg 7: Konformitet
+
+Konformitet är inte en färdighet på pyramiden - det är en nivå du väljer vid karaktärsskapandet, som [Refresh](https://fate-srd.com/fate-condensed/getting-started#refresh). Den definierar din zon: vad du kan göra utan att världen reagerar.
+
+Inom din zon behövs inget slag. Det är bara hur världen fungerar.
+
+Det finns två sätt att vara Konform:
+
+**Rådande konformitet** - Du definierar reglerna för ditt domän. Din Regin-aspekt pekar ut vad som är ditt. Råttguden kan fylla en stad med råttor utan Dissonans - det är bara råttor som beter sig som råttor. Tor kan kalla ned blixten, men hammaren, åskan och det uppenbart gudomliga sättet tar Dissonans i en värld som glömt honom.
+
+**Följande konformitet** - Du anpassar dig till nutidens regler. Internet sätter spelregler idag. En Regin som formats i den eran manifesterar sig kanske som viralt innehåll eller algoritmisk påverkan - kraftfull just för att det är osynligt.
+
+Båda ger låg Dissonans, men av olika anledningar.
+
+**Låg Konformitet är roligare.** Du är uppenbart något annat - gudomligt, dramatiskt, omöjligt att ignorera.
+
+I gränsfall, när det är oklart om en handling faller inom ditt domän eller utanför världens tolerans, avgör SL om ett slag krävs.
+
+### Dissonans
+
+Din Konformitetsnivå bestämmer storleken på din Dissonansbana, som [Fysisk och Mental stress](https://fate-srd.com/fate-condensed/getting-started#stress-consequences) bestäms av dina färdigheter. Du tar Dissonansstress när du agerar utanför din zon. Dissonans återhämtas långsammare än vanlig stress - i Cirklar, i andevärlden, eller genom vila djupt förankrad i ditt domän.
+
 ## Kom ihåg!
 
 Detta är bara en kortfattad guide. För mer detaljer och regler, se [Fate Core-regelboken](https://fate-srd.com/fate-core/character-creation). Tveka inte att vara kreativ och skapa ett väsen som du verkligen vill spela!
